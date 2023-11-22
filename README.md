@@ -6,15 +6,16 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of scrubletR is to run the scrublet in R.
+scrubletR is an R package designed to run Python's Scrublet package via reticulate. [Scrublet](https://pypi.org/project/scrublet/) gathers metadata summarising potential doublet cells in Single Cell RNA-seq experiments.
+
+This fork of [Moonerss/scrubletR](https://github.com/Moonerss/scrubletR) includes some bug fixes, improving compatability with Seurat v5
 
 ## Installation
 
-You can install the released version of scrubletR from
-[Github](https://github.com/Moonerss/scrubletR) with:
+You can install the master branch of this [Github](https://github.com/ofarrelle/scrubletR) repository with:
 
 ``` r
-remotes::install_github("Moonerss/scrubletR")
+remotes::install_github("ofarrelle/scrubletR")
 ```
 
 ## Prerequisites
